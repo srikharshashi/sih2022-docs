@@ -5,6 +5,9 @@ This project was done as a participation project for [Smart India Hackathon 2022
 - Create a system for citizens to report crimes anonymously while also giving the autorities a swift way to interfere
 
 ## Solution
+
+Actual Summary : We made an uber for crimes with face detection and NLP to help investigation and an Admin Dashboard for quick information with a hint of smart contract in there to anonymously reward reporters.
+
 Let us go through the solution from a bottom up perspective ie from the **citizens**
 1) They are provided with a mobile app for anonymous crime reporting along with the ability to upload media and exact location of where the crime has occured 
 
@@ -57,8 +60,10 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 
 ###  The Backend
 - The backend houses the ML Model and the crime score calculator which handles all the **REST API** requests for three apps and also enables **web socket** communication via **SocketIO** package.
-- As a cherry on the top if the crime is resolved the the reporter gets a certain amount of tokens trasfered to his wallet via a smart contract 
+- The usernames and passwords are stored as SHA256 and Argon2 hashes so that even in the event of a seurity breach none is ever gonna know the actual user names of the people making it **pretty resilient to attacks** 
+- As a cherry on the top if the crime is resolved the the reporter gets a certain amount of tokens trasfered to his wallet via a **smart contract** as an incentive anonymously
 - Tech Stack :- **Flask** with blueprint architecture and **MongoDB** as NoSQL database and **Docker** for containerization.
+
 
 
 ### Deployment
