@@ -1,5 +1,4 @@
 ## Intelligent Crime Reporting and Intervention System 
----
 This project was done as a participation project for [Smart India Hackathon 2022](sih.gov.in).
 
 ## Problem Statement
