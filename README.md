@@ -66,14 +66,14 @@ The backend would best be deployed on an **AWS EC2** instance as it's just a doc
 
 
 ## Architecture Diagram
----
 
 ![architecture diagram](https://user-images.githubusercontent.com/37980605/177811524-5eb56862-0ea7-4c6c-8d29-a30cae75da2e.jpg)
 
 
 ## Models 
-----
+
 1) Case Object 
 ![Mind Map](https://user-images.githubusercontent.com/37980605/177813396-fd94af69-5be0-4a02-b300-897aa2e61a8b.jpg)
+---
 2)User Object
 ![user object](https://user-images.githubusercontent.com/37980605/177813683-b99103f5-6ca1-4ef0-9d5b-9144657898af.jpg)
