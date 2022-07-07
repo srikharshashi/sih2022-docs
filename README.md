@@ -31,9 +31,9 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 
 1) **Patrol App** :-
 - It is an app for the authorities on patrol to take up cases near them and respond as soon as possible 
-- An authority can have a max of the 5 cases alloted to him ,if it exceeds that then the backend finds the next nearest patrol to allocate it to. The patrol authority can drive yupto the case as we provide accurate location as well as mark the status of the case as resolved or invalidated.
+- An authority can have a max of the 5 cases alloted to them ,if it exceeds that then the backend finds the next nearest patrol to allocate it to. The patrol authority can drive upto the case as we provide accurate location as well as mark the status of the case as resolved or invalidated.
 - Tech Stack :- **Flutter** with BLOC State Management(Android + iOS)  
-- [Github Repository]()
+- [Github Repository](https://github.com/srikharshashi/authoritiesapp)
 - [Play Store Link]()
 - ScreenShots : 
 
@@ -47,10 +47,10 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 
 
 3) **The Admin App** :-
-- The admin app is a website which provides live updates of all the cases being registered which is aimed at higher authorities to have a quick glance as well as case overview filterted by different ype of parameters as required 
+- The admin app is a website which provides live updates of all the cases being registered which is aimed at higher authorities to have a quick glance as well as case overview filtered by different type of parameters as required 
 - It provides a central place to add patrol authorities 
 - It provides location wise statistics on how the cases are distributed and how many of them are actually solved as of realtime
-- [Github Repository]()
+- [Github Repository](https://github.com/sravangvm/Sih-Admin)
 - [Live URL]()
 - Tech Stack :- **React JS** , **HTML** , **CSS** ,**BootStrap**
 - Screen Shots :-  
@@ -58,6 +58,7 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 
 ###  The Backend
 - The backend houses the ML Model and the crime score calculator which handles all the **REST API** requests for three apps and also enables **web socket** communication via **SocketIO** package.
+- As a cherry on the top if the crime is resolved the the reporter gets a certain amount of tokens trasfered to his wallet via a smart contract 
 - Tech Stack :- **Flask** with blueprint architecture and **MongoDB** as NoSQL database and **Docker** for containerization.
 
 
@@ -65,8 +66,15 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 The backend would best be deployed on an **AWS EC2** instance as it's just a docker container and the media storage/retrieval storage would be an **AWS S3** while the admin app could be deployed on **Heroku** ,the patrol and the citizens app must be deployed on repsective app stores of given platforms. 
 
 
+## Architecture Diagram
+---
+
+![architecture diagram](https://user-images.githubusercontent.com/37980605/177811524-5eb56862-0ea7-4c6c-8d29-a30cae75da2e.jpg)
 
 
-
-
-
+## Models 
+----
+1) Case Object 
+![Mind Map](https://user-images.githubusercontent.com/37980605/177813396-fd94af69-5be0-4a02-b300-897aa2e61a8b.jpg)
+2)User Object
+![user object](https://user-images.githubusercontent.com/37980605/177813683-b99103f5-6ca1-4ef0-9d5b-9144657898af.jpg)
