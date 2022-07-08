@@ -2,18 +2,18 @@
 This project was done as a participation project for [Smart India Hackathon 2022](sih.gov.in).
 
 ## Problem Statement
-- Create a system for citizens to report crimes anonymously while also giving the autorities a swift way to interfere
+- Create a system for citizens to report crimes anonymously while also giving the authorities a swift way to interfere
 
 ## Solution
 
-Actual Summary : We made an uber for crimes with face detection and NLP to help investigation and an Admin Dashboard for quick information with a hint of smart contract in there to anonymously reward reporters.
+Actual Summary : We made an uber for crimes with face detection and NLP to help investigation and an Admin Dashboard for quick information with a hint of smart contract in there to anonymously reward reporters with cryto currency
 
-Let us go through the solution from a bottom up perspective ie from the **citizens**
+Let us go through the solution from a bottom up perspective i.e, from the **citizens**
 1) They are provided with a mobile app for anonymous crime reporting along with the ability to upload media and exact location of where the crime has occured 
 
 2) Other Features of the app include
-    - Avialable in regional languages to reach a wider audience 
-    - An emergency button to alert the the authorities to them while broadcasting your location to them 
+    - Available in regional languages to reach a wider audience 
+    - An emergency button to alert the authorities allowing you to broadcast your location in real time
  3) Tech Stack :- **Flutter** with BLOC State Management(Android + iOS) 
  
  4) [Github Repository Link](https://github.com/srikharshashi/citizensapp)
@@ -23,7 +23,7 @@ Let us go through the solution from a bottom up perspective ie from the **citize
  6) Screen Shots
 
 Once the case has been reported by the citizens it is processed by a backend and the following things happen :
-- The case is assigned to a nearby autority who is on patrol in the area (**Patrol App**) 
+- The case is assigned to a nearby authority who is on patrol in that area (**Patrol App**) 
 - The media in the case is processed and any known **faces detected** are added to the case info
 - The case description from the citizens is proccesed to **determine the type of crime** better and is added to the case info
 - The case is updated in the (**Admin Website**) in real time for higher authorities   
@@ -60,7 +60,7 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 
 ###  The Backend
 - The backend houses the ML Model and the crime score calculator which handles all the **REST API** requests for three apps and also enables **web socket** communication via **SocketIO** package.
-- The usernames and passwords are stored as SHA256 and Argon2 hashes so that even in the event of a seurity breach none is ever gonna know the actual user names of the people making it **pretty resilient to attacks** 
+- The usernames and passwords are stored as SHA256 and Argon2 hashes so that even in the event of a security breach no one is ever gonna know the actual user names of the people making it **pretty resilient to attacks** 
 - As a cherry on the top if the crime is resolved the the reporter gets a certain amount of tokens trasfered to his wallet via a **smart contract** as an incentive anonymously
 - Tech Stack :- **Flask** with blueprint architecture and **MongoDB** as NoSQL database and **Docker** for containerization.
 
