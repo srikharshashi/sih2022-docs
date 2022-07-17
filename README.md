@@ -48,8 +48,8 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 2) **Intelligent part of the system** :-
 - The backend houses two ML models which include an NLP model to categorize the crime based on the description as well as face detection model which detects if it's repeat offender based on perviously detected faces and if the face is unknown then it adds the face to existing facelist 
 - A **crime score** is calculated based on all the data from ML model like repeat offence status,crime type and location based crime statistics for the authorities to determine how important a case is to handle it better 
-- Tech Stack(Frameworks) :- **Scikit-Learn** 
-- [Github Repository - Face Recognition]()
+- Tech Stack(Frameworks) :- **NLTK** 
+- The Face Recognition module was having technical issues hence was replaced with **Face API from Azure**
 - [Github Repository - NLP]()
 
 
