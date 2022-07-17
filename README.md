@@ -22,8 +22,8 @@ Let us go through the solution from a bottom up perspective i.e, from the **citi
  
  6) Screen Shots
  ---
- ![image](https://user-images.githubusercontent.com/37980605/179388809-e403b67b-8ee4-4779-a57a-ec8473b7a5d3.png)
- ![image](https://user-images.githubusercontent.com/37980605/179388819-7b761657-32ad-4fe4-adda-9faf583c13f1.png)
+![image](https://user-images.githubusercontent.com/37980605/179389499-5d3868db-8136-41ef-b578-35c872375798.png)
+![image](https://user-images.githubusercontent.com/37980605/179388819-7b761657-32ad-4fe4-adda-9faf583c13f1.png)
 
 
 Once the case has been reported by the citizens it is processed by a backend and the following things happen :
