@@ -61,6 +61,8 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 - [Live URL]()
 - Tech Stack :- **React JS** , **HTML** , **CSS** ,**BootStrap**
 - Screen Shots :-  
+- ![image](https://user-images.githubusercontent.com/37980605/179401400-f43d381a-1357-433e-b371-495ad2a53cf4.png)
+- ![image](https://user-images.githubusercontent.com/37980605/179401365-619f6c00-fed0-453d-b3f9-f45c0d1d641c.png)
 
 
 ###  The Backend
