@@ -18,9 +18,8 @@ Let us go through the solution from a bottom up perspective i.e, from the **citi
  
  4) [Github Repository Link](https://github.com/srikharshashi/citizensapp)
  
- 5) [Play Store Link]()
  
- 6) Screen Shots
+ 5) Screen Shots
  ---
 ![image](https://user-images.githubusercontent.com/37980605/179389499-5d3868db-8136-41ef-b578-35c872375798.png)
 ![image](https://user-images.githubusercontent.com/37980605/179388819-7b761657-32ad-4fe4-adda-9faf583c13f1.png)
@@ -40,7 +39,6 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 - An authority can have a max of the 5 cases alloted to them ,if it exceeds that then the backend finds the next nearest patrol to allocate it to. The patrol authority can drive upto the case as we provide accurate location as well as mark the status of the case as resolved or invalidated.
 - Tech Stack :- **Flutter** with BLOC State Management(Android + iOS)  
 - [Github Repository](https://github.com/srikharshashi/authoritiesapp)
-- [Play Store Link]()
 - ScreenShots : 
 ![image](https://user-images.githubusercontent.com/37980605/179401316-591297c9-1773-4e96-8bca-0fcae204897d.png)
 
@@ -58,7 +56,6 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 - It provides a central place to add patrol authorities 
 - It provides location wise statistics on how the cases are distributed and how many of them are actually solved as of realtime
 - [Github Repository](https://github.com/sravangvm/Sih-Admin)
-- [Live URL]()
 - Tech Stack :- **React JS** , **HTML** , **CSS** ,**BootStrap**
 - Screen Shots :-  
 - ![image](https://user-images.githubusercontent.com/37980605/179401400-f43d381a-1357-433e-b371-495ad2a53cf4.png)
