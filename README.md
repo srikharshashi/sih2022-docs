@@ -42,6 +42,7 @@ Well we talked about a lot of apps above right? let's actually see what everythi
 - [Github Repository](https://github.com/srikharshashi/authoritiesapp)
 - [Play Store Link]()
 - ScreenShots : 
+![image](https://user-images.githubusercontent.com/37980605/179401316-591297c9-1773-4e96-8bca-0fcae204897d.png)
 
 
 2) **Intelligent part of the system** :-
