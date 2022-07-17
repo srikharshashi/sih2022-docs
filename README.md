@@ -86,3 +86,6 @@ The backend would best be deployed on an **AWS EC2** instance as it's just a doc
 ---
 2)User Object
 ![user object](https://user-images.githubusercontent.com/37980605/177813683-b99103f5-6ca1-4ef0-9d5b-9144657898af.jpg)
+
+## Contributors/Participants
+- [D.Srikhar Shashi](https://github.com/srikharshashi)  {Team Lead / Flutter Developer / System Architect}
