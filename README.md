@@ -89,3 +89,4 @@ The backend would best be deployed on an **AWS EC2** instance as it's just a doc
 
 ## Contributors/Participants
 - [D.Srikhar Shashi](https://github.com/srikharshashi)  {Team Lead / Flutter Developer / System Architect}
+- [M.Dedeepya](https://github.com/dedeepya-M) {ML Engineer}
